@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>My First Page</title>
+</head>
+<body bgcolor="#abcdef">
+<h3>Ordered list</h3>
+<ol>
+<li>Solve the equation</li>
+<ul type="square">
+<li>a<sup>2</sup>+1=0</li>
+<li>a<sup>2</sup>+2a+1</li>
+<li>2log<sub>3</sub>x+5</li>
+</ul>
+<li>Write Short notes:</li>
+<ul>
+<li>Complex numbers</li>
+<li>Mean</li>
+</ul>
+</ol>
+<hr>
+<h3>Table</h3>
+<table border="1">
+<tr>
+<th>Discription</th>
+<th colspan="6">Information</th>
+</tr>
+<tr>
+<th rowspan="3">Education Qualification</th>
+<th>S.No</th>
+<th>Name of the examination</th>
+<th colspan="3">Name of School/College</th>
+<th>Grade/Percentage</th>
+</tr>
+<tr>
+<td>1.</td>
+<td>10<sup>th</sup></td>
+<td colspan="3">B.K.V.M</td>
+<td>83%</td>
+</tr>
+<tr>
+<td>2.</td>
+<td>10+2</td>
+<td colspan="3">Arniko</td>
+<td>76%</td>
+</tr>
+<tr>
+<th rowspan=7>Grade Sheet</th>
+<th rowspan=2>S.No</th>
+<th rowspan=2>Subject Name</th>
+<th colspan=2><center>Marks</center></th>
+<th rowspan=2>Total</th>
+<th rowspan=2>Grade</th>
+</tr>
+<tr>
+<th>Internal</th>
+<th>End Sem</th>
+</tr>
+<tr>
+<td>1.</td>
+<td>DSA</td>
+<td>45</td>
+<td>30</td>
+<td>75</td>
+<td>A</td>
+</tr>
+<tr>
+<td>2.</td>
+<td>DEC</td>
+<td>46</td>
+<td>32</td>
+<td>78</td>
+<td>A</td>
+</tr>
+<tr>
+<td>3.</td>
+<td>DMS</td>
+<td>42</td>
+<td>45</td>
+<td>87</td>
+<td>E</td>
+</tr>
+<tr>
+<td>4.</td>
+<td>WT</td>
+<td>48</td>
+<td>45</td>
+<td>93</td>
+<td>O</td>
+</tr>
+<tr>
+<td>5.</td>
+<td>Maths</td>
+<td>28</td>
+<td>34</td>
+<td>62</td>
+<td>B</td>
+</tr>
+</table><hr>
+<h3>Links and Hyperlinks</h3>
+<h4>Absolute link</h4>
+<a href="C:\Users\KIIT\Documents\HTML\Project\pro1.html" title="Mero Nepal">www.visitNepal.com</a>
+<h4>Relative Link</h4>
+<a href="..\First.html" title="First Page">AboutAyush</a>
+<h4>Int Text Link</h4>
+<a href="#class" title="Practice">Registration Form</a><hr/>
+<h2>Forms</h2>
+<h4>Get Method</h4>
+<form action="https://www.facebook.com/">
+Username:<br>
+<input type="text" name="username"/><br>
+Password:<br>
+<input type="password" name="password"/><br>
+Gender:<br>
+<input type="radio" name="gender" value="Male">Male<br>
+<input type="radio" name="gender" value="Female">Female<br>
+<input type="submit" value="Login"/> 
+</form><hr>
+<h4>Post Method<h4>
+<form action="https://www.facebook.com/?ref=tn_tnmn" method="post">
+Username:<br>
+<input type="text" name="username"/><br>
+Password:<br>
+<input type="password" name="password"><br>
+<input type="submit"><hr><br><br>
+<h1><a name="class"><center>Registration Form</center></h1></a>
+<font size="4">
+<form>
+Name <input type="text" name="name">
+<p>
+Roll No<input type="text" name="roll">
+<P>
+<table align=left>
+<tr><td>
+Semester<br> <input type="radio" name="sem">1<sup>st</sup>
+<br>
+<input type="radio" name="sem">2<sup>nd</sup>
+<br>
+<input type="radio" name="sem">3<sup>rd</sup>
+<p>
+</td></tr>
+</table>
+<table align="center">
+<tr><td>
+Branch<br> <input type="radio" name="branch">CSE<br>
+<input type="radio" name="branch">IT<br>
+<input type="radio" name="branch">CSSE<br>
+<input type="radio" name="branch">CSCE</td></tr>
+</table>
+D.O.B
+<select name="day" value="DAY">
+<option value="1">Oct</option>
+<option value="2">Nov</option>
+<option value="3">Dec</option>
+</select>
+<select name="year">
+<option value="1">1998</option>
+<option value="2">1999</option>
+<option value="3">2000</option>
+</select>
+<p>
+Address<br>
+<textarea name="address" rows=5 cols=20></textarea><p>
+Select your Id<select name="email">
+<option value="1">Ayush</option>
+<option value="2">Asish</option>
+<option value="3">Adarsh</option>
+</select>@<select name="email">
+<option value="1">kiit.ac.in</option>
+<option value="2">google.com</option>
+<option value="3">yahoo.com</option>
+</select>
+<p>
+Password<input type="password" name="pass">
+<p>
+Confirm Password<input type="password" name="confirm">
+<p>
+Captcha<font size="5"><table cellpadding="10" border="1" frame="box"><tr><td><b>#$Ab&CCd<b></td></tr></table>
+<p>
+</font>Type Captcha<input type="text" name="captcha">
+<p>
+<center><input type="submit" name="create" value="Create Account"></center>
+</font>
+</body>
+</html>
+
+
